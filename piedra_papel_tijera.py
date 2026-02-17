@@ -37,9 +37,9 @@ class JuegoPPT:
         if usuario == computadora:
             return "Empate 🤝", 0
         elif self.REGLAS[usuario] == computadora:
-            return "¡Ganaste! ✅", 1
+            return "¡Ganaste! ", 1
         else:
-            return "Perdiste ❌", 0
+            return "Perdiste ", 0
     
     def mostrar_interfaz(self):
         """Muestra el menú del juego"""
@@ -110,3 +110,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
